@@ -1,0 +1,28 @@
+.footer{
+    background-color: #041444;
+    color: white;
+    bottom: 0;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.footer-item li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-item li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.footer-item li a:hover{
+    color: #1d7af3;
+}
